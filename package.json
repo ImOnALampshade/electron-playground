@@ -1,0 +1,27 @@
+{
+  "name": "electron-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/main.js",
+  "scripts": {
+    "compile": "grunt coffee babel less pug",
+    "start": "electron bin/main.js"
+  },
+  "repository": "https://github.com/ImOnALampshade/electron-playground",
+  "keywords": [],
+  "author": "Howard Hughes",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "coffeescript": "^2.2.2",
+    "electron": "~1.8.2",
+    "grunt": "^1.0.2",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  }
+}
